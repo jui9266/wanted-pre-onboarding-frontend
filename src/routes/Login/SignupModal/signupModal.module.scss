@@ -1,0 +1,52 @@
+@use '/src/styles/constants/colors';
+
+.inner {
+  position: relative;
+  padding: 30px 50px;
+  background-color: #f5f5f7;
+  border-radius: 30px;
+  box-shadow: 0 4px 57px 3px rgba(0, 0, 0, 30%);
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 43px;
+    }
+
+    .closeBtn {
+      font-size: 20px;
+    }
+  }
+
+  form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+
+    .input {
+      width: 300px;
+      height: 45px;
+      padding-left: 15px;
+      margin: 0 auto;
+      margin: 10px 0;
+      border: 1px solid colors.$GRAYA;
+      border-radius: 8px;
+    }
+
+    .signup {
+      display: block;
+      width: 160px;
+      padding: 10px 14px;
+      margin: 30px auto 0;
+      font-size: 20px;
+      background-color: #eeeeee;
+    }
+  }
+}
